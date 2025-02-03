@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav-wrapper navbar-size">
+        <a href="#" class="brand-logo">Ankit SIT725</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Items List Section -->
+    <div class="container">
+      <h5 class="center-align">Items List</h5>
+      <ul id="items-list" class="collection"></ul>
+    </div>
+
+    <!-- Add Item Form -->
+    <div class="container">
+      <h5 class="center-align">Add New Item</h5>
+      <form id="add-item-form">
+        <div class="input-field">
+          <input id="name" type="text" name="name" required>
+          <label for="name">Item Name</label>
+        </div>
+        <div class="input-field">
+          <input id="description" type="text" name="description" required>
+          <label for="description">Description</label>
+        </div>
+        <button type="submit" class="btn waves-effect waves-light">Add Item</button>
+      </form>
+    </div>
+
+    <!-- Materialize JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
